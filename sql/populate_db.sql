@@ -1,0 +1,60 @@
+INSERT INTO worker (name, birthday, level, salary) VALUES
+('James May', '1983-01-16', 'Senior', 7000),
+('Jeremy Clarkson', '1980-10-11', 'Senior', 7000),
+('Richard Hammond', '1989-12-19', 'Senior', 5500),
+('Samantha Carter', '1988-09-01', 'Middle', 4500),
+('Bill Portals', '1990-02-14', 'Middle', 4100),
+('John Dwayson', '1995-05-13', 'Middle', 3850),
+('Joanne Owling', '1992-11-08', 'Middle', 3500),
+('Oliver Kingston', '1995-07-30', 'Junior', 2100),
+('Patrick Bateman', '1993-08-26', 'Junior', 2000),
+('Elon Musk', '1999-12-01', 'Trainee', 600);
+
+INSERT INTO client (name) VALUES
+('Meta Inc.'),
+('Atomic-Cola Inc.'),
+('Sarif Industries'),
+('Gandalf & Hobbits Inc.'),
+('Grand Tour Inc.');
+
+INSERT INTO project (client_id, name, start_date, finish_date) VALUES
+(1, 'Project A', '2012-05-20', '2013-10-05'),
+(1, 'Project B', '2012-07-13', '2012-12-20'),
+(2, 'Project C', '2012-08-20', '2016-08-26'),
+(3, 'Project D', '2014-01-10', '2015-02-20'),
+(3, 'Project E', '2015-03-11', '2015-12-15'),
+(4, 'Project F', '2016-03-18', '2016-10-01'),
+(4, 'Project G', '2016-06-11', '2017-01-31'),
+(4, 'Project H', '2017-03-01', '2018-12-31'),
+(5, 'Project I', '2019-01-05', '2019-02-05'),
+(5, 'Project J', '2019-02-20', '2023-05-30');
+
+INSERT INTO project_worker (project_id, worker_id) VALUES
+(1, 1),
+(1, 3),
+(1, 7),
+(2, 2),
+(3, 2),
+(3, 4),
+(3, 6),
+(3, 1),
+(4, 2),
+(4, 5),
+(4, 9),
+(5, 4),
+(5, 3),
+(6, 1),
+(6, 7),
+(6, 10),
+(7, 2),
+(7, 4),
+(7, 9),
+(8, 1),
+(8, 3),
+(8, 5),
+(9, 6),
+(10, 2),
+(10, 4),
+(10, 5),
+(10, 9),
+(10, 10);

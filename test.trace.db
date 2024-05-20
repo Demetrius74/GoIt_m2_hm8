@@ -1,0 +1,6 @@
+2024-05-20 19:13:59.134160+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WORKER" not found (this database is empty); SQL statement:
+INSERT INTO worker (name, birthday, level, salary) VALUES (?, ?, ?, ?) [42104-224]
+2024-05-20 19:14:14.841940+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "WORKER" not found (this database is empty); SQL statement:
+INSERT INTO worker (name, birthday, level, salary) VALUES (?, ?, ?, ?) [42104-224]
